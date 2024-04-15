@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Vaibhav Rathi"
+
+  page-footer:
+    left: "&copy; Copyright 2024, Vaibhav Rathi"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: projects/research.qmd
+        text: Research
+
+      - href: projects/CV.qmd
+        text: CV
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+
+
